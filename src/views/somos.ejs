@@ -11,32 +11,22 @@
 
     <%- include('partials/navigation')%>
 
-    <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Misión: </h5>
-              <p class="card-text">Nuestra misión es ofrecer soluciones tecnológicas innovadoras que impulsen el
-                crecimiento y la transformación digital de nuestros clientes. Nos comprometemos a
-                brindar productos y servicios de calidad que satisfagan las necesidades de manera
-                efectiva y eficiente.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+    <main class="container my-4 vh-100 pt-2 text-center d-flex justify-content-center align-items-center" style="flex-direction: column;">
+      <section style="margin-top: 5em;">
+          <h1 class="my-4">Quién Somos</h1>
+          <img src="/img/somos.png" class=" rounded-circle" style="width: 400px"  alt="">
+          <p class="info my-4">Somos InnovateTech Solutions, una empresa líder en soluciones tecnológicas innovadoras. Nuestro equipo está compuesto por expertos apasionados por la tecnología, comprometidos en ofrecer resultados excepcionales a nuestros clientes.</p>
+      </section>
+      <section style="width: 100vw; display: flex; justify-content:center ; align-items: center; gap: 1em; margin-bottom: 5em;" >
+          <div class="bg-dark my-4" style="min-width: 350px; max-width: 500px; padding: .7em .5em;">
+              <h3>Misión</h3>
+              <p> Nuestra misión es ofrecer soluciones tecnológicas innovadoras que impulsen el crecimiento y la transformación digital de nuestros clientes.</p>  
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+          <div class="bg-dark my-4" style="min-width: 350px; max-width: 500px; padding: .7em .5em;"><h3>Visión</h3>
+              <p> Ser reconocidos como líderes en el sector tecnológico, destacando por nuestra excelencia en la entrega de soluciones personalizadas y nuestra capacidad.</p>
           </div>
-        </div>
-      </div>
-
-
-
+      </section>
+  </main>
 
 
     <%- include('partials/footer')%>
